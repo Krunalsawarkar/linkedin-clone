@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import CreateIcon from "@mui/icons-material/Create";
 import EventNoteIcon from "@mui/icons-material/EventNote";
 import ImageIcon from "@mui/icons-material/Image";
@@ -9,6 +9,10 @@ import InputOptions from "../InputOptions/InputOptions";
 import Post from "../Post/Post";
 
 function Feed() {
+  const [post, setPost] = useState([]);
+
+  const sendPost = (e) => {};
+
   return (
     <div className="feed">
       <div className="feed__inputContainer">
