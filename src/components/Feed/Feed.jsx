@@ -6,6 +6,7 @@ import SubscriptionsIcon from "@mui/icons-material/Subscriptions";
 import CalendarViewDayIcon from "@mui/icons-material/CalendarViewDay";
 import "../Feed/Feed.css";
 import InputOptions from "../InputOptions/InputOptions";
+import Post from "../Post/Post";
 
 function Feed() {
   return (
@@ -34,7 +35,11 @@ function Feed() {
         </div>
       </div>
 
-      
+      <Post
+        name="Krunal Sawarkar"
+        description="This is test"
+        message="Testing here"
+      />
     </div>
   );
 }
